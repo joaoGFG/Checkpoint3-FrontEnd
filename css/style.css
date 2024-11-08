@@ -167,3 +167,17 @@ footer {
     width: 30px;
     height: 30px;
 }
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .grid-produtos {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
