@@ -34,3 +34,44 @@ header {
     border-bottom: 1px solid #e0e0e0;
 }
 
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 15px;
+    width: 1px;
+    background-color: #e0e0e0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding: 1rem 2rem;
+    display: block;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #727475 ;
+}
