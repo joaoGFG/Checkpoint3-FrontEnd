@@ -121,3 +121,17 @@ nav {
     transform: translateY(-5px);
 }
 
+
+.produto img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.produto h3 {
+    font-family: 'Playfair Display', serif;
+    color: #82541c ;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
